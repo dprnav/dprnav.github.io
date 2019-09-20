@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/gif" href="images/title.png"/>
+    <title>Pranav Dixit</title>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Sacramento|ZCOOL+KuaiLe" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/loading.css">
+  </head>
+  <body class="scroll">
+    <div class="nav-bar">
+      <a class="a" href="index.html">Home</a>
+      <a class="a" href="about.html">About</a>
+      <a class="a" href="skills.html">Skills</a>
+      <a class="a" href="#">Contact</a>
+    </div>
+    <div class="top-container" >
+      <img class="cloud1 more-opaque" src="images/cloud.png" alt="cloud-img">
+      <div id="form-container" class="form-container">
+        <h2>Drop Me a Message!</h2>
+        <form id="contactform" class="gform form" method="post">
+          <p type="Name"><input type="text" name="name" placeholder="Write your name here.."></input></p>
+          <p type="Email"><input type="email" name="email" placeholder="Let me know how to contact you back.."></input></p>
+          <p type="Message"><textarea name="message" placeholder="What would you like to tell me.."></textarea></p>
+          <button type="submit" value="Send">Send</button>
+        </form>
+      </div>
+      <div id="loading" class="loading">
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
+      </div>
+      <div id="mail-response" class="mail-response">
+        <img class="envelope" src="images/envelope.png" alt="envelope-img">
+        <h2 id="response-text">Thankyou for your message!</h2>
+      </div>
+      <img class="nature more-opaque" src="images/nature.gif" alt="nature-img">
+    </div>
+    <script data-cfasync="false" type="text/javascript" src="javascript/form-submission-handler.js"></script>
+  </body>
+</html>
